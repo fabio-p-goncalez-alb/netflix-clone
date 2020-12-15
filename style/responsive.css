@@ -1,12 +1,57 @@
 @media screen and (max-width: 700px) {
-  header .container {
+  /* header .container {
     display: flex;
     flex-direction: column;
+  } */
+
+  .dropdown-content {
+    display: block;
+    position: fixed;
+    top: 30px;
+    right: -115px;
+    min-width: 115px;
+    padding: 10px 8px;
+    transition: right 0.3s ease-out;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    visibility: hidden;
+  }
+
+  .dropdown-content a {
+    display: block;
+    margin: 0;
+  }
+
+  header .dropdown-button {
+    display: block;
+  }
+
+  .dropdown.responsive {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .dropdown.responsive .dropdown-content {
+    right: 0px;
+    visibility: visible;
+  }
+
+  .dropdown.responsive .dropdown-button:hover {
+    background-color: var(--txtcolor);
+    color: black;
+  }
+
+  .main-movie .description {
+    margin-bottom: 20px;
   }
 
   .button {
     margin-top: 5px;
-    width: 300px;
+    width: 250px;
+    margin-bottom: 10px;
   }
 }
 

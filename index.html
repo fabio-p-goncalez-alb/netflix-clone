@@ -19,13 +19,26 @@
     <header>
       <div class="container">
         <h2 class="logo">NETFLIX</h2>
-        <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Séries</a>
-          <a href="#">Filmes</a>
-          <a href="#">Documentários</a>
-        </nav>
+        <div class="dropdown">
+          <button
+            role="menubar"
+            class="dropdown-button"
+            onclick="responsiveDropdown()"
+          >
+            &#9776;
+          </button>
+          <nav class="dropdown-content">
+            <a href="#">Inicio</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Documentários</a>
+          </nav>
+        </div>
       </div>
+
+      <!-- <button role="button" class="dropdown-button">
+              <i class="fas fa-bars"></i>
+            </button> -->
     </header>
 
     <main>
@@ -85,6 +98,7 @@
       </div>
     </div>
 
+    <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/381a86562c.js"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>

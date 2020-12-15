@@ -13,11 +13,12 @@
 
 body {
   background: var(--bgcolor);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', 'Times', 'serif';
   color: white;
 }
 
-header .container {
+header .container,
+.dropdown {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,17 +28,40 @@ header .container {
 header .logo {
   margin-left: 5px;
   color: var(--txtcolor);
-  font-family: 'Arial Black', Times;
+  font-family: 'Arial Black', 'Times';
   font-size: 40px;
 }
 
-header nav a {
+.dropdown-content a {
   text-decoration: none;
   color: #aaa;
   margin-right: 10px;
 }
 
-header nav a:hover {
+header .dropdown-button {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background-color: transparent;
+  color: white;
+
+  border: none;
+  border-radius: 8%;
+
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+header .dropdown-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-content a:hover {
   color: #fff;
 }
 
@@ -100,4 +124,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.movie-carousel {
+  margin-top: 5px;
 }
