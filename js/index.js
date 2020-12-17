@@ -25,7 +25,6 @@ function handleClickMovie() {
 }
 
 function getMainMovie(event) {
-  // const mainMovie = document.getElementsByTagName('main')[0];
   const mainTitle = document.querySelector('.title');
   const mainDescription = document.querySelector('.description');
 
@@ -53,7 +52,7 @@ function doFetch(data) {
   let moviesHTML = `<div class="owl-carousel owl-theme">`;
   moviesData.push(...data);
   data.forEach(({ miniSrc, title }) => {
-    const movieHTML = `<div class="item" id="${title}" onclick="handleClickMovie()">
+    const movieHTML = `<div class="item pointer" id="${title}" onclick="handleClickMovie()">
         <img class="movie-box" src="img/${miniSrc}" alt="Série ${title}" />
       </div>
     `;
@@ -71,6 +70,7 @@ function owlConfig() {
     loop: true,
     margin: 10,
     nav: false,
+    dots: false,
     responsive: {
       0: {
         items: 1,
