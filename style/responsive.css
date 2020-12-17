@@ -7,7 +7,7 @@
   .dropdown-content {
     display: block;
     position: fixed;
-    top: 30px;
+    top: 55px;
     right: -115px;
     min-width: 115px;
     padding: 10px 8px;
@@ -17,6 +17,9 @@
     visibility: hidden;
   }
 
+  .title {
+    font-size: 24px;
+  }
   .dropdown-content a {
     display: block;
     margin: 0;
@@ -24,6 +27,11 @@
 
   header .dropdown-button {
     display: block;
+  }
+
+  .container {
+    max-height: 100%;
+    box-sizing: border-box;
   }
 
   .dropdown.responsive {

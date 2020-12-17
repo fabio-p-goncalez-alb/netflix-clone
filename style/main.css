@@ -15,6 +15,10 @@ body {
   background: var(--bgcolor);
   font-family: 'Times New Roman', 'Times', 'serif';
   color: white;
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
 }
 
 header .container,
@@ -43,11 +47,12 @@ header .dropdown-button {
   position: absolute;
   right: 0;
   top: 0;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   padding: 0;
   background-color: transparent;
   color: white;
+  font-size: 30px;
 
   border: none;
   border-radius: 8%;
@@ -65,17 +70,23 @@ header .dropdown-button:hover {
   color: #fff;
 }
 
+main {
+  height: calc(65vh - 30px);
+  max-height: calc(65vh - 30px);
+}
+
 /* Main Movie. */
 .main-movie {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url('/img/poster-the-umbrella-academy.jpg');
-  height: 400px;
+  min-height: 100%;
+  max-height: 100%;
   background-size: cover;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
 }
 
@@ -97,6 +108,7 @@ header .dropdown-button:hover {
 
   padding: 15px 30px;
   margin-right: 15px;
+  margin-bottom: 10px;
   font-size: 12px;
 
   cursor: pointer;
@@ -120,12 +132,19 @@ header .dropdown-button:hover {
   width: 70%;
 }
 
+/* Carousel */
+
 .movie-box {
-  height: 100%;
   width: 100%;
   display: block;
 }
 
 .movie-carousel {
   margin-top: 5px;
+}
+
+.item img {
+  min-height: calc(30vh - 30px);
+  max-height: calc(30vh - 30px);
+  max-width: calc((30vh - 30px) * 0.8);
 }

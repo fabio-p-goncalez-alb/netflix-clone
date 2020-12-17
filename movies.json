@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Black List",
+    "description": "Após se entregar à polícia, um brilhante fugitivo oferece ajuda ao FBI, mas apenas se a novata Elizabeth Keen for sua parceira.",
+    "miniSrc": "miniBlackList.jpg",
+    "posterSrc": "posterBlackList.jpg"
+  },
+  {
+    "title": "Black Mirror",
+    "description": "Esta série antológica de ficção científica explora um futuro próximo onde a natureza humana e a tecnologia de ponta entram em um perigoso conflito.",
+    "miniSrc": "miniBlackMirror.jpg",
+    "posterSrc": "posterBlackMirror.jpg"
+  },
+  {
+    "title": "Fear The Walking Dead",
+    "description": "Ambientada em Los Angeles, a série mostra o começo do apocalipse zumbi e a temível desintegração da sociedade pelos olhos de uma família disfuncional, que precisa se unir para tentar sobreviver ao caos do fim dos tempos.",
+    "miniSrc": "miniFearTheWalkingDead.jpg",
+    "posterSrc": "posterFearTheWalkingDead.jpg"
+  },
+  {
+    "title": "Flash",
+    "description": "Barry enfrenta diversos assassinos que invadem a premiação onde ele acompanha Iris, mas os efeitos colaterais de seus novos superpoderes representam uma ameaça.",
+    "miniSrc": "miniFlash.jpg",
+    "posterSrc": "posterFlash.jpg"
+  },
+  {
+    "title": "Game Of Thrones",
+    "description": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto.",
+    "miniSrc": "miniGOT.jpg",
+    "posterSrc": "posterGOT.jpg"
+  },
+  {
+    "title": "Grey's Anatomy",
+    "description": "Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, eles descobrem o quanto a vida profissional e a pessoal podem ser complicadas e se misturarem no meio do caminho. Shonda Rhimes",
+    "miniSrc": "miniGreysAnatomy.jpg",
+    "posterSrc": "posterGreysAnatomy.jpg"
+  },
+  {
+    "title": "Lúcifer",
+    "description": "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.",
+    "miniSrc": "miniLucifer.jpg",
+    "posterSrc": "posterLucifer.jpg"
+  },
+  {
+    "title": "Queen's Gambit",
+    "description": "Durante a Guerra Fria, em um orfanato do Kentucky, uma garota prodígio do xadrez luta contra o vício para se tornar a número um do mundo.",
+    "miniSrc": "miniQueensGambit.jpg",
+    "posterSrc": "posterQueensGambit.jpg"
+  },
+  {
+    "title": "Supernatural",
+    "description": "Os irmãos Dean e Sam vasculham o país em busca de atividades paranormais, brigando com demônios, fantasmas e monstros no caminho.",
+    "miniSrc": "miniSupernatural.jpg",
+    "posterSrc": "posterSupernatural.jpg"
+  },
+  {
+    "title": "The 100",
+    "description": "Quase 100 anos após um apocalipse nuclear devastar a Terra, 100 sobreviventes de uma estação espacial voltam para avaliar as condições do planeta.",
+    "miniSrc": "miniThe100.jpg",
+    "posterSrc": "posterThe100.jpg"
+  }
+]
