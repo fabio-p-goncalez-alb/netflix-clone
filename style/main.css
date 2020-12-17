@@ -145,7 +145,7 @@ main {
 }
 
 .item img {
-  min-height: calc(30vh - 30px);
-  max-height: calc(30vh - 30px);
-  max-width: calc((30vh - 30px) * 0.8);
+  min-height: calc(34vh - 30px);
+  max-height: calc(34vh - 30px);
+  max-width: calc((34vh - 30px) * 0.8);
 }
